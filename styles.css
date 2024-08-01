@@ -1,1 +1,62 @@
 /* your code here */
+footer {
+            background-color: black;
+            color: white;
+	border-radius: 30px;
+        }
+.top{
+	display: flex;
+}
+.logo-details{
+	font-size: 32px;
+}
+.media-icons{
+            display: flex;
+	position: absolute;
+	right: 0px;
+        }
+.top div{
+	padding: 10px;
+	
+}
+.media-icons img{
+            width: 40px;
+            border: 3px solid white;
+            border-radius: 500px;
+        }
+.link-boxes{
+	display: flex;
+	
+}
+ul{
+	list-style-type: none;
+	padding:20px;
+	margin: 10px;
+	margin-top: 0px;
+}
+h3{
+	padding:5px;
+	margin: 10px;
+	margin-bottom: 15px;
+}
+li{
+	padding: 0px 10px 10px 10px;
+	margin: 3px 10px 3px 10px;
+	/* margin-top: 0px; */
+}
+.link-boxes ul li a{
+	color: white;
+	text-decoration: none;
+}
+.bottom-details{
+	background-color: lightgray;
+	display:flex;
+	
+}
+h3{
+	margin-left: 20px;
+}
+.second{
+	position: absolute;
+	right: 20px;
+}
